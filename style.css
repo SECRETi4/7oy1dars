@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 54px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+  justify-content: space-between;
+  list-style: none;
+}
+body {
+  background: linear-gradient(105.54deg, #f4a764 -2.93%, #ffdec2 72.14%);
+}
+nav ul li a {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  color: black;
+  text-decoration: none;
+  letter-spacing: 0%;
+}
+.btn {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  padding: 14px 38px;
+  background: #1c1415;
+  border: none;
+  border-radius: 50px;
+}
+h1 {
+  font-family: Sofia Sans;
+  font-weight: 900;
+  font-size: 76px;
+  line-height: 137%;
+  letter-spacing: -1%;
+  color: #ffffff;
+  margin-top: 144px;
+}
+h2 {
+  font-family: Sofia Sans;
+  font-weight: 900;
+  font-size: 52px;
+  line-height: 114.99999999999999%;
+  letter-spacing: -1%;
+  color: #ffffff;
+}
+span {
+  font-family: Sofia Sans;
+  font-weight: 900;
+  font-size: 52px;
+  line-height: 114.99999999999999%;
+  letter-spacing: -1%;
+  color: black;
+}
+p {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 190%;
+  letter-spacing: 0%;
+  color: #1c1415cc;
+  margin-top: 70px;
+  width: 613px;
+}
+h3 {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 137%;
+  letter-spacing: -1%;
+  margin-top: 48px;
+  color: #ffffff;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.icon {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+i {
+  font-size: 26;
+  color: white;
+}
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-between  ;
+}
+.carusel{
+  width: 499px;
+  height: 600px;
+}
